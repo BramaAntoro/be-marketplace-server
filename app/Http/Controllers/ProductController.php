@@ -123,7 +123,7 @@ class ProductController extends Controller
 
         if (is_null($data)) {
             return response([
-                "massage" => "Product type not found",
+                "massage" => "Product type not found",                      
                 "data" => [],
             ], 404);
         }
